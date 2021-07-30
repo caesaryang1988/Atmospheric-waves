@@ -103,3 +103,5 @@ for time in TP_data.time:
 TP_ts = TP_data.tp.sel(latitude=slice(38,30),longitude=slice(-90,-80)).mean(axis=2).mean(axis=1)
 PV_ts = PV_data.pv.sel(latitude=slice(40,25),longitude=slice(-105,-95),level=lev).mean(axis=2).mean(axis=1)
 plotTimeSeries(TP_ts.time,TP_ts,PV_ts)
+
+PV_lon = PV_data.pv.sel(latitude=slice(lat2,lat1))
