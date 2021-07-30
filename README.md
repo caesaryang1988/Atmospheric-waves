@@ -15,11 +15,11 @@ The Python codes here wrapped up analysis in planned three stages.
 - stage A: exploratory analysis on the relation between precipitation and atmospheric wave pattern (denoted by PV) during the Kentucky flood event.
 
 From our preliminary analysis, it is shown that atmospheric wave pattern over central U.S. differ significantly between days with heavy precipitation in the Eastern U.S. and days without, see below.
-![Image on 2020-02-03_00Z](https://github.com/caesaryang1988/Atmospheric-waves/blob/main/tp-pv_2020-02-03_00Z.pdf)
-![Image on 2020-02-06_12Z](https://github.com/caesaryang1988/Atmospheric-waves/blob/main/tp-pv_2020-02-06_12Z.pdf)
+![Image on 2020-02-03_00Z](tp-pv_2020-02-03_00Z.pdf)
+![Image on 2020-02-06_12Z](tp-pv_2020-02-06_12Z.pdf)
 
 Moreover, there is a clear correlation between rainfall over Eastern U.S. and atmospheric wave patterns over central U.S., see below.
 
-![Image on tp-pv correlation](https://github.com/caesaryang1988/Atmospheric-waves/blob/main/tp-pv_ts.pdf) 
+![Image on tp-pv correlation](tp-pv_ts.pdf) 
 - stage B (in progress): calculating LWA and monitor the lifecycle of planetary Rossby waves including wave generation, propagation and break up, and discussing potential impact on precipitation forecast.
 - stage C (in progress): revisiting the problem for long-range climate data. Explore possibility of identify LWA using computer vision.
